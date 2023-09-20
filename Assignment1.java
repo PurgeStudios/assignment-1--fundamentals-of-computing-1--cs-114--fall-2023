@@ -5,8 +5,21 @@ import java.util.Scanner;
 public class Assignment1 {
   public static void main(String[] args) {
 
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    // Assigning Variables
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    // From Echo
     final int BASE = 32;
-      final double CONVERSION_FACTOR = 9.0 / 5.0;
+    final double CONVERSION_FACTOR = 9.0 / 5.0;
+    
+    //From TempConverter
+    double fahrenheitTemp;
+      int celsiusTemp = 24;  // value to convert
+
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    // Code for Initial
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     System.out.println("DDDDDDDDDDDDDDDDDD            DDDDDDDDDDDDDDDDDDDDDDDDDDD");
     System.out.println("DDDDDDDDDDDDDDDDDDDDD       DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD");
@@ -18,10 +31,10 @@ public class Assignment1 {
     System.out.println("DDD                DDDDD    DDDDD         DDDDD       DDDDD");
     System.out.println("DDDDD            DDDDDD     DDDDD         DDDDD       DDDDD");
     System.out.println("DDDDDDDDDDDDDDDDDDDDD       DDDDD         DDDDD       DDDDD");
-    System.out.println("DDDDDDDDDDDDDDDDDDD         DDDDD         DDDDD       DDDDD\n");
+    System.out.println("DDDDDDDDDDDDDDDDDDD         DDDDD         DDDDD       DDDDD\next");
 
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    // Please enter 5-character string
+    // Code for Enter a 5-character string
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     String message;
@@ -37,17 +50,11 @@ public class Assignment1 {
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Converter
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-      
-  
-      double fahrenheitTemp;
-      int celsiusTemp = 24;  // value to convert
   
       fahrenheitTemp = celsiusTemp * CONVERSION_FACTOR + BASE;
   
       System.out.println("Celsius Temperature: " + celsiusTemp);
       System.out.println("Fahrenheit Equivalent: " + fahrenheitTemp);
-
 
   }
 }
