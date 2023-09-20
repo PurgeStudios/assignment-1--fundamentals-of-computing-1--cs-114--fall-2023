@@ -11,6 +11,7 @@ public class Assignment1 {
     System.out.println("DDD                DDDDD    DDDDD         DDDDD       DDDDD");
     System.out.println("DDD                DDDDD    DDDDD         DDDDD       DDDDD");
     System.out.println("DDD                DDDDD    DDDDD         DDDDD       DDDDD");
+    System.out.println("DDD                DDDDD    DDDDD         DDDDD       DDDDD");
     System.out.println("DDDDD            DDDDDD     DDDDD         DDDDD       DDDDD");
     System.out.println("DDDDDDDDDDDDDDDDDDDDD       DDDDD         DDDDD       DDDDD");
     System.out.println("DDDDDDDDDDDDDDDDDDD         DDDDD         DDDDD       DDDDD");
