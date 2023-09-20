@@ -20,18 +20,18 @@ public class Assignment1 {
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Code for Initial
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    System.out.println("DDDDDDDDDDDDDDDDDD            DDDDDDDDDDDDDDDDDDDDDDDDDDD");
-    System.out.println("DDDDDDDDDDDDDDDDDDDDD       DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD");
-    System.out.println("DDDDD            DDDDDD     DDDDDD       DDDDDDD     DDDDDD");
-    System.out.println("DDD                DDDDD    DDDDD         DDDDD       DDDDD");
-    System.out.println("DDD                DDDDD    DDDDD         DDDDD       DDDDD");
-    System.out.println("DDD                DDDDD    DDDDD         DDDDD       DDDDD");
-    System.out.println("DDD                DDDDD    DDDDD         DDDDD       DDDDD");
-    System.out.println("DDD                DDDDD    DDDDD         DDDDD       DDDDD");
-    System.out.println("DDDDD            DDDDDD     DDDDD         DDDDD       DDDDD");
-    System.out.println("DDDDDDDDDDDDDDDDDDDDD       DDDDD         DDDDD       DDDDD");
-    System.out.println("DDDDDDDDDDDDDDDDDDD         DDDDD         DDDDD       DDDDD\next");
+                                                    
+    System.out.println("DDDDDDDDDDDDDDDDDD            MMMMMMMMMMMMMMMMMMMMMMMMMMM");
+    System.out.println("DDDDDDDDDDDDDDDDDDDDD       MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM");
+    System.out.println("DDDD           DDDDDD       MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM");
+    System.out.println("DDD               DDDDD     MMMMMM     MMMMMMMMM     MMMMMM");
+    System.out.println("DDD                DDDDD    MMMMM        MMMMMM       MMMMM");
+    System.out.println("DDD                 DDDDD   MMMMM        MMMMMM       MMMMM");
+    System.out.println("DDD                DDDDD    MMMMM        MMMMMM       MMMMM");
+    System.out.println("DDD               DDDDD     MMMMM        MMMMMM       MMMMM");
+    System.out.println("DDDD           DDDDDD       MMMMM        MMMMMM       MMMMM");
+    System.out.println("DDDDDDDDDDDDDDDDDDDDD       MMMMM        MMMMMM       MMMMM");
+    System.out.println("DDDDDDDDDDDDDDDDDDD         MMMMM        MMMMMM       MMMMM\next");
 
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Code for Enter a 5-character string
