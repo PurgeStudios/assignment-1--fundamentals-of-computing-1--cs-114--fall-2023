@@ -1,5 +1,6 @@
 // My attempt at my initials
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Assignment1 {
@@ -8,15 +9,16 @@ public class Assignment1 {
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Assigning Variables
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    // From Echo
-    final int BASE = 32;
-    final double CONVERSION_FACTOR = 9.0 / 5.0;
     
-    //From TempConverter
-    double fahrenheitTemp;
-      int celsiusTemp = 24;  // value to convert
+    int num1;
+    float num2;
 
+    //From TempConverter
+
+     final int BASE = 0;
+    final double CONVERSION_FACTOR = 9.0 / 5.0;
+    double fahrenheitTemp;
+      int celsiusTemp = 0;  // value to convert
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Code for Initial
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -31,12 +33,12 @@ public class Assignment1 {
     System.out.println("DDD               DDDDD     MMMMM        MMMMMM       MMMMM");
     System.out.println("DDDD           DDDDDD       MMMMM        MMMMMM       MMMMM");
     System.out.println("DDDDDDDDDDDDDDDDDDDDD       MMMMM        MMMMMM       MMMMM");
-    System.out.println("DDDDDDDDDDDDDDDDDDD         MMMMM        MMMMMM       MMMMM\next");
+    System.out.println("DDDDDDDDDDDDDDDDDDD         MMMMM        MMMMMM       MMMMM");
+    System.out.println('\n');
 
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    // Code for Enter a 5-character string
+    // Code for Users input
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
     String message;
     Scanner scan = new Scanner(System.in);
 
@@ -44,17 +46,28 @@ public class Assignment1 {
 
     message = scan.nextLine();
 
-    System.out.println("You entered: \"" + message + "\"");
-    scan.close();
+    System.out.println("Please enter a 5-character string:");
+
+    message = scan.nextLine(); 
+
 
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    // Converter
+    // Random Number Genera
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-  
+    Random generator = new Random();
+    
+    num1 = generator.nextInt(16384);
+    num2 = generator.nextFloat();
+
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    // Trying to Combine input into string result
+    // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
       fahrenheitTemp = celsiusTemp * CONVERSION_FACTOR + BASE;
-  
-      System.out.println("Celsius Temperature: " + celsiusTemp);
-      System.out.println("Fahrenheit Equivalent: " + fahrenheitTemp);
 
+      System.out.println("Random number generated. Continuing...: ");
+      System.out.println("Your new string is: "+fahrenheitTemp + celsiusTemp  + message + num1 );
+      // System.out.println("" + message + "");
+    scan.close();
   }
 }
